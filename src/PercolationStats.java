@@ -2,6 +2,7 @@ import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdStats;
 
+
 public class PercolationStats {
     private final int trials;
     private final double[] fractionOpenSites;
@@ -40,17 +41,17 @@ public class PercolationStats {
 
     // low endpoint of 95% confidence interval
     public double confidenceLo() {
-        return mean() - 1.96 * stddev() / java.lang.Math.sqrt(trials);
+        return mean() - 1.96 * stddev() / Math.sqrt(trials);
     }
 
     // high endpoint of 95% confidence interval
     public double confidenceHi() {
-        return mean() + 1.96 * stddev() / java.lang.Math.sqrt(trials);
+        return mean() + 1.96 * stddev() / Math.sqrt(trials);
     }
 
     // test client (see below)
     public static void main(String[] args) {
-        PercolationStats percolationStats = new PercolationStats(new Integer(args[0]), new Integer(args[1]));
+        PercolationStats percolationStats = new PercolationStats(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
         StdOut.printf("mean\t\t\t\t\t = %f\n", percolationStats.mean());
         StdOut.printf("stddev\t\t\t\t\t = %f\n", percolationStats.stddev());
         StdOut.printf("95%% confidence interval\t = [%f, %f]\n", percolationStats.confidenceLo(), percolationStats.confidenceHi());

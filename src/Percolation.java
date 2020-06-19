@@ -3,6 +3,8 @@ import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 public class Percolation {
     private static final int BLOCKED = 0;
     private static final int OPEN = 1;
+    private static final int TOP = 0;
+    private final int bottom;
     private final WeightedQuickUnionUF sites;
     private final int[] openCloseTableOfSites;
     private final int count;
@@ -13,9 +15,10 @@ public class Percolation {
         if (n <= 0) {
             throw new IllegalArgumentException("invalid count, count must be > 0");
         }
-        this.sites = new WeightedQuickUnionUF(n * n + 1);
+        this.sites = new WeightedQuickUnionUF(n * n + 2);
         this.count = n;
-        openCloseTableOfSites = new int[count * count + 1];
+        this.bottom = n * n + 1;
+        openCloseTableOfSites = new int[count * count + 2];
         for (int i = 1; i <= count * count; i++)
             openCloseTableOfSites[i] = BLOCKED;
     }
@@ -25,6 +28,12 @@ public class Percolation {
         validate(row, col);
         if (!isOpen(row, col)) {
             openCloseTableOfSites[transform2Dto1DIndices(row, col, 0, 0)] = OPEN;
+            if (row == 1) {
+                sites.union(transform2Dto1DIndices(row, col, 0, 0), TOP);
+            }
+            if (row == count) {
+                sites.union(transform2Dto1DIndices(row, col, 0, 0), bottom);
+            }
             if (openCloseTableOfSites[transform2Dto1DIndices(row, col, -1, 0)] == OPEN) {
                 sites.union(transform2Dto1DIndices(row, col, -1, 0), transform2Dto1DIndices(row, col, 0, 0));
             }
@@ -50,12 +59,7 @@ public class Percolation {
     // is the site (row, col) full?
     public boolean isFull(int row, int col) {
         validate(row, col);
-        for (int i = 1; i <= count; i++) {
-            if (isOpen(row, col) && sites.find(transform2Dto1DIndices(row, col, 0, 0)) == sites.find(i)) {
-                return true;
-            }
-        }
-        return false;
+        return sites.find(TOP) == sites.find(transform2Dto1DIndices(row, col, 0, 0));
     }
 
     // returns the number of open sites
@@ -65,12 +69,7 @@ public class Percolation {
 
     // does the system percolate?
     public boolean percolates() {
-        for (int j = count; j > 0; j--) {
-            if (isFull(count, j)) {
-                return true;
-            }
-        }
-        return false;
+        return sites.find(TOP) == sites.find(bottom);
     }
 
     private void validate(int row, int col) {
