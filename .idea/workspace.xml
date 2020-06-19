@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33ff61d9-2807-4584-a982-2bc7cf88d43e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dMvLGNcJS7EBdqEHFDCzmvhD7L" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.PercolationStats">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.revutska.Main" />
+      <module name="percolation" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Percolation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Percolation" />
+      <module name="percolation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PercolationStats" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PercolationStats" />
+      <module name="percolation" />
+      <option name="PROGRAM_PARAMETERS" value="2 100000" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PercolationStats" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Percolation" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Percolation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33ff61d9-2807-4584-a982-2bc7cf88d43e" name="Default Changelist" comment="" />
+      <created>1592247718449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592247718449</updated>
+      <workItem from="1592247719766" duration="3972000" />
+      <workItem from="1592329141362" duration="6330000" />
+      <workItem from="1592382507713" duration="8000" />
+      <workItem from="1592419679051" duration="7001000" />
+      <workItem from="1592485366559" duration="14132000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1257" y="37" key="#PercolationStats" timestamp="1592504758150">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1257" y="37" key="#PercolationStats/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592504758150" />
+    <state x="-1496" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592508520102">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1496" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592508520102" />
+    <state x="-1496" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592504851581" />
+    <state x="-1197" y="76" key="#xdebugger.evaluate" timestamp="1592502590605">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1197" y="76" key="#xdebugger.evaluate/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592502590605" />
+    <state x="542" y="213" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1592486392287" />
+    <state width="1878" height="374" key="GridCell.Tab.0.bottom" timestamp="1592554896744">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592508567291" />
+    <state width="1878" height="374" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592554896744" />
+    <state width="1878" height="374" key="GridCell.Tab.0.bottom/0.23.1440.800/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592500586484" />
+    <state width="1878" height="374" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592505092509" />
+    <state width="1878" height="374" key="GridCell.Tab.0.center" timestamp="1592554896743">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592508567289" />
+    <state width="1878" height="374" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592554896743" />
+    <state width="1878" height="374" key="GridCell.Tab.0.center/0.23.1440.800/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592500586483" />
+    <state width="1878" height="374" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592505092508" />
+    <state width="1878" height="374" key="GridCell.Tab.0.left" timestamp="1592554896743">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592508567288" />
+    <state width="1878" height="374" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592554896743" />
+    <state width="1878" height="374" key="GridCell.Tab.0.left/0.23.1440.800/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592500586482" />
+    <state width="1878" height="374" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592505092506" />
+    <state width="1878" height="374" key="GridCell.Tab.0.right" timestamp="1592554896744">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592508567290" />
+    <state width="1878" height="374" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592554896744" />
+    <state width="1878" height="374" key="GridCell.Tab.0.right/0.23.1440.800/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592500586484" />
+    <state width="1878" height="374" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592505092509" />
+    <state width="1878" height="374" key="GridCell.Tab.1.bottom" timestamp="1592554896746">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="374" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592507069389" />
+    <state width="1878" height="374" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592554896746" />
+    <state width="1878" height="374" key="GridCell.Tab.1.bottom/0.23.1440.800/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592500586592" />
+    <state width="1878" height="374" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592505092606" />
+    <state width="1878" height="374" key="GridCell.Tab.1.center" timestamp="1592554896745">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="374" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592507069388" />
+    <state width="1878" height="374" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1592554896745" />
+    <state width="1878" height="374" key="GridCell.Tab.1.center/0.23.1440.800/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592500586591" />
+    <state width="1878" height="374" key="GridCell.Tab.1.center/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592505092605" />
+    <state width="1878" height="374" key="GridCell.Tab.1.left" timestamp="1592554896745">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="374" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592507069387" />
+    <state width="1878" height="374" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1592554896745" />
+    <state width="1878" height="374" key="GridCell.Tab.1.left/0.23.1440.800/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592500586590" />
+    <state width="1878" height="374" key="GridCell.Tab.1.left/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592505092604" />
+    <state width="1878" height="374" key="GridCell.Tab.1.right" timestamp="1592554896746">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="374" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592507069388" />
+    <state width="1878" height="374" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1592554896746" />
+    <state width="1878" height="374" key="GridCell.Tab.1.right/0.23.1440.800/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592500586591" />
+    <state width="1878" height="374" key="GridCell.Tab.1.right/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592505092605" />
+    <state x="208" y="31" key="SettingsEditor" timestamp="1592247781034">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="31" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080@0.0.1440.900" timestamp="1592247781034" />
+    <state width="667" height="534" key="SwitcherDM" timestamp="1592507824143">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="667" height="534" key="SwitcherDM/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1592507824143" />
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900/-1920.-180.1920.1080@0.0.1440.900" timestamp="1592249263022" />
+    <state width="501" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1592427334078" />
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1592485480767">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1592485480767" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Percolation.java</url>
+          <line>50</line>
+          <properties class="Percolation" method="isFull">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Percolation.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PercolationStats.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/algs4.jar!/edu/princeton/cs/algs4/StdStats.java</url>
+          <line>215</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
